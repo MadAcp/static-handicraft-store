@@ -1,0 +1,1 @@
+# static-handicraft-store
