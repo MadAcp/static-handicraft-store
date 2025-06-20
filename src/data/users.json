@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "username": "admin1",
+    "password": "adminpass",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "username": "seller1",
+    "password": "sellerpass",
+    "role": "seller",
+    "status": "APPROVED"
+  },
+  {
+    "id": 3,
+    "username": "seller2",
+    "password": "seller2pass",
+    "role": "seller",
+    "status": "PENDING"
+  },
+  {
+    "id": 4,
+    "username": "seller3",
+    "password": "seller3pass",
+    "role": "seller",
+    "status": "APPROVED"
+  }
+] 

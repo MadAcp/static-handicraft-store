@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Handmade Clay Vase",
+    "description": "A beautiful, hand-painted clay vase.",
+    "price": 25.99,
+    "image": "/images/vase.jpg",
+    "category": "Home Decor",
+    "sellerId": 2,
+    "offer": "10% off"
+  },
+  {
+    "id": 2,
+    "name": "Woven Basket",
+    "description": "Eco-friendly basket made from natural fibers.",
+    "price": 15.5,
+    "image": "/images/basket.jpg",
+    "category": "Storage",
+    "sellerId": 3,
+    "offer": null
+  },
+  {
+    "id": 3,
+    "name": "Embroidered Cushion Cover",
+    "description": "Colorful cushion cover with traditional embroidery.",
+    "price": 12.0,
+    "image": "/images/cushion.jpg",
+    "category": "Textiles",
+    "sellerId": 2,
+    "offer": "15% off"
+  },
+  {
+    "id": 4,
+    "name": "Wooden Jewelry Box",
+    "description": "Hand-carved jewelry box with intricate patterns.",
+    "price": 30.0,
+    "image": "/images/jewelry-box.jpg",
+    "category": "Accessories",
+    "sellerId": 4,
+    "offer": null
+  },
+  {
+    "id": 5,
+    "name": "Macrame Wall Hanging",
+    "description": "Boho style macrame wall art for your living room.",
+    "price": 22.5,
+    "image": "/images/macrame.jpg",
+    "category": "Home Decor",
+    "sellerId": 3,
+    "offer": "20% off"
+  },
+  {
+    "id": 6,
+    "name": "Hand-painted Mug",
+    "description": "Ceramic mug with unique hand-painted design.",
+    "price": 10.0,
+    "image": "/images/mug.jpg",
+    "category": "Accessories",
+    "sellerId": 4,
+    "offer": null
+  },
+  {
+    "id": 7,
+    "name": "Bamboo Table Lamp",
+    "description": "Eco-friendly bamboo lamp for a warm ambiance.",
+    "price": 35.0,
+    "image": "/images/lamp.jpg",
+    "category": "Home Decor",
+    "sellerId": 2,
+    "offer": "5% off"
+  },
+  {
+    "id": 8,
+    "name": "Handwoven Rug",
+    "description": "Soft, colorful rug made by local artisans.",
+    "price": 45.0,
+    "image": "/images/rug.jpg",
+    "category": "Textiles",
+    "sellerId": 3,
+    "offer": null
+  },
+  {
+    "id": 9,
+    "name": "Terracotta Planter",
+    "description": "Perfect for your indoor plants, hand-molded.",
+    "price": 18.0,
+    "image": "/images/planter.jpg",
+    "category": "Home Decor",
+    "sellerId": 4,
+    "offer": "Buy 1 Get 1 Free"
+  },
+  {
+    "id": 10,
+    "name": "Knitted Throw Blanket",
+    "description": "Cozy up with this soft, hand-knitted blanket.",
+    "price": 28.0,
+    "image": "/images/blanket.jpg",
+    "category": "Textiles",
+    "sellerId": 2,
+    "offer": null
+  }
+] 
