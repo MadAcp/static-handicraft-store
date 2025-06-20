@@ -81,13 +81,18 @@ const AdminDashboard = () => {
                 </td>
                 <td className="py-2 px-4 border-b text-center">{products.filter(p => p.sellerId === seller.id).length}</td>
                 <td className="py-2 px-4 border-b text-center flex gap-2 justify-center">
-                  <button onClick={() => handleEdit(seller.id)} className="bg-blue-500 text-white px-2 py-1 rounded text-xs">Edit</button>
-                  <button onClick={() => handleDelete(seller.id)} className="bg-red-500 text-white px-2 py-1 rounded text-xs">Delete</button>
+                  <button
+                    onClick={() => navigate(`/admin/edit-seller/${seller.id}`)}
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-2 py-1 rounded text-xs font-bold shadow"
+                  >
+                    Edit
+                  </button>
+                  <button className="bg-rose-600 hover:bg-rose-700 text-white px-2 py-1 rounded text-xs font-bold shadow">Delete</button>
                   {seller.status === 'PENDING' && (
-                    <button onClick={() => handleStatusChange(seller.id, 'APPROVED')} className="bg-green-600 text-white px-2 py-1 rounded text-xs">Approve</button>
+                    <button onClick={() => handleStatusChange(seller.id, 'APPROVED')} className="bg-green-600 hover:bg-green-700 text-white px-2 py-1 rounded text-xs font-bold shadow">Approve</button>
                   )}
                   {seller.status === 'APPROVED' && (
-                    <button onClick={() => handleStatusChange(seller.id, 'PENDING')} className="bg-yellow-600 text-white px-2 py-1 rounded text-xs">Set Pending</button>
+                    <button onClick={() => handleStatusChange(seller.id, 'PENDING')} className="bg-yellow-600 hover:bg-yellow-700 text-white px-2 py-1 rounded text-xs font-bold shadow">Set Pending</button>
                   )}
                 </td>
               </tr>

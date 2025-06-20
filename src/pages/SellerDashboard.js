@@ -27,7 +27,12 @@ const SellerDashboard = () => {
         <div><strong>Role:</strong> {user.role}</div>
       </div>
       <div className="flex justify-end mb-4">
-        <button className="bg-green-600 text-white px-4 py-2 rounded">+ Add Product</button>
+        <button
+          className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded font-bold shadow"
+          onClick={() => navigate('/seller/add-product')}
+        >
+          + Add Product
+        </button>
       </div>
       <h2 className="text-xl font-semibold mb-2">My Products</h2>
       {myProducts.length === 0 ? (
@@ -44,8 +49,13 @@ const SellerDashboard = () => {
               <div className="text-brown-900 font-bold mb-1">${product.price}</div>
               <div className="text-xs text-gray-500">Category: {product.category}</div>
               <div className="flex gap-2 mt-2">
-                <button className="bg-blue-500 text-white px-2 py-1 rounded text-xs">Edit</button>
-                <button className="bg-red-500 text-white px-2 py-1 rounded text-xs">Delete</button>
+                <button
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-2 py-1 rounded text-xs font-bold shadow"
+                  onClick={() => navigate(`/seller/edit-product/${product.id}`)}
+                >
+                  Edit
+                </button>
+                <button className="bg-rose-600 hover:bg-rose-700 text-white px-2 py-1 rounded text-xs font-bold shadow">Delete</button>
               </div>
             </div>
           ))}

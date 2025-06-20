@@ -10,6 +10,9 @@ import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
 import SellerDashboard from './pages/SellerDashboard';
 import ProductDetails from './pages/ProductDetails';
+import SellerAddProduct from './pages/SellerAddProduct';
+import SellerEditProduct from './pages/SellerEditProduct';
+import AdminEditSeller from './pages/AdminEditSeller';
 
 function App() {
   return (
@@ -23,7 +26,10 @@ function App() {
           <Route path="/offers" element={<Offers />} />
           <Route path="/login" element={<Login />} />
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin/edit-seller/:id" element={<AdminEditSeller />} />
           <Route path="/seller" element={<SellerDashboard />} />
+          <Route path="/seller/add-product" element={<SellerAddProduct />} />
+          <Route path="/seller/edit-product/:id" element={<SellerEditProduct />} />
         </Routes>
       </Main>
       <Footer />
